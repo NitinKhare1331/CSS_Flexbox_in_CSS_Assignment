@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    background-color: rgba(244, 242, 253, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1700px;
+    height: 427px;
+    padding: 250px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .card{
+    width: 262px;
+    height: 400px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 30px;
+    padding-bottom: 130px;
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16),
+    3px 3px 10px -1px rgba(255,255,255,0.7);
+}
+.wrapper .card.active{
+    background-color: rgba(32, 40, 66, 1);
+    color: white;
+}
+.wrapper .card.active > button{
+    background-color: white;
+    color:  rgba(32, 40, 66, 1);
+    font-weight: bold;
+}
+.wrapper .card h1{
+    font-size: 45px;
+}
+.wrapper .card h5{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.wrapper .card .price{
+    margin-bottom: 16px;
+}
+.wrapper .card ul{
+    list-style: none;
+}
+.wrapper .card ul li{
+    margin:30px;
+    font-size: 18px;
+    margin-left: 0;
+}
+.wrapper .card ul li i{
+    margin-right: 10px;
+    margin-left: 0px;
+    font-size: 25px;
+}
+button{
+    padding:15px;
+    margin-left: 35px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 18px;
+    background-color: rgba(32, 40, 66, 1);
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+    color: rgba(32, 40, 66, 1);
+}

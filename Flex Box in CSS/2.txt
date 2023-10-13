@@ -1,0 +1,11 @@
+The role of following key properties in Flexbox layout model are as follows:-
+
+Justify Content:-It aligns the item horizontally and it accepts following values i.e flex-start ,flex-end ,center ,space-between and space-around.
+
+align-items:-It aligns the item vertically and it accepts following values i.e flex-start ,flex-end ,center ,baseline and strech.
+
+gap:-The gap property defines the size of the gap between the rows and between the columns.
+
+flex-direction:-It defines the direction items are placed in the container . It accepts the following values i.e row ,column ,row-reverse and column-reverse.
+
+flex-wrap:-It specifies whether the flexible items should wrap or not . It accepts the following values i.e wrap ,nowrap and wrap-reverse.
